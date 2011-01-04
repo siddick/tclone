@@ -1,0 +1,25 @@
+h1. Tclone
+
+Just copy the templates of the rails generators to the your rails project.
+
+h2. Installation
+
+Configure the Gemfile:
+
+bc(sh). gem 'tclone'
+
+h2. Usage
+
+To copy the templates used by the scaffold generator:
+
+bc(ruby). rails g tclone scaffold
+# Above command will copy all the templates used by the scaffold generator to your rails project( RAILS_ROOT/lib/templates/ )
+
+
+Now, you can modify the template used by the scaffole generator.
+
+
+
+
+
+

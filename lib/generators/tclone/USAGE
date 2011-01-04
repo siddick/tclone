@@ -1,0 +1,18 @@
+Description:
+    Just copy the templates of the rails generators to the your rails project.
+
+Example:
+    rails generate tclone scaffold
+
+    This will create:
+      lib/templates/active_record/model
+      lib/templates/active_record/model/migration.rb
+      lib/templates/active_record/model/model.rb
+      ...
+      lib/templates/erb/scaffold/_form.html.erb
+      lib/templates/erb/scaffold/edit.html.erb
+      lib/templates/erb/scaffold/index.html.erb
+      lib/templates/erb/scaffold/new.html.erb
+      lib/templates/erb/scaffold/show.html.erb
+      ...
+
